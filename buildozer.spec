@@ -19,10 +19,10 @@ source.include_exts = py,png,jpg,jpeg,kv,atlas,ttf
 version = 0.1
 
 # (list) Application requirements
-requirements = python3,kivy
+requirements = python3==3.9.15,kivy
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = portrait
+orientation = landscape
 
 # (list) Permissions
 android.permissions = INTERNET
