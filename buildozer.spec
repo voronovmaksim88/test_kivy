@@ -219,3 +219,15 @@ log_level = 2
 #    Then, invoke the command line with the "demo" profile:
 #
 #buildozer --profile demo android debug
+
+# Options: arm64-v8a, armeabi-v7a, x86, x86_64
+android.arch = arm64-v8a
+
+# (int) Target Android API, should be as high as possible.
+android.api = 31
+
+# (int) Minimum API your APK will support.
+android.minapi = 21
+
+# (str) Android NDK version to use
+android.ndk = 25b
